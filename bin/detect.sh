@@ -5,5 +5,6 @@ if [ -f $1/manage.py ]; then
   echo "-----> Detected Django manage.py"
   exit 0
 else
+  echo "FAIL: No Djanago manage.py detected"
   exit 1
 fi
