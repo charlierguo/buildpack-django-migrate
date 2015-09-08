@@ -1,9 +1,9 @@
 #!/bin/sh
 
-set -e            # fail fast
-set -o pipefail   # dont ignore exit codes when piping output
+# fail fast, fail hard
+set -eo pipefail 
 
-# Configure directories
+# configure directories
 build_dir=$1
 cache_dir=$2
 env_dir=$3
