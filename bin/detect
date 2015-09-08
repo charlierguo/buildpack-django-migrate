@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
 # this pack is valid for apps with a manage.py in the root
 if [ ! -f $1/manage.py ]; then
